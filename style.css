@@ -35,7 +35,9 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 1vw 8vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0.15);
 
 }
 
@@ -59,4 +61,9 @@ nav .navigation ul li a {
     color: rgb(21, 21, 100);
     font-size: 16px;
     font-weight: 500;
+}
+
+nav .navigation ul li a:hover{
+    color: #fdc93b;
+    transition: 0.3s ease;
 }
