@@ -346,3 +346,26 @@ nav .navigation ul li a:hover{
     border: 1px solid rgba(21, 21, 100);
     cursor: pointer;
 }
+
+/* footer  */
+
+footer{
+    padding: 8vw;
+    background-color: #101c32;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+footer .footer-col {
+    padding-bottom: 40px;
+
+}
+
+footer h3 {
+    color: rgba(241, 240, 245);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
