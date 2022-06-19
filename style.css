@@ -279,8 +279,15 @@ nav .navigation ul li a:hover{
 }
 
 #registration .form a.yellow{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
     color: #fff;
     background: #FDC938;
+    transition: 0.3s ease;
 }
 
 #registration .form a.yellow:hover{
